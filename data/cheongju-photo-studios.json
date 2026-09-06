@@ -1,0 +1,78 @@
+{
+  "source_query": "청주 사진관",
+  "retrieved": "2026-09-06",
+  "source": "https://search.naver.com/search.naver?query=%EC%B2%AD%EC%A3%BC%20%EC%82%AC%EC%A7%84%EA%B4%80",
+  "scope_note": "검색 결과 첫 화면의 네이버 플레이스 7개이며 청주 전체 사업자 목록이 아닙니다. 영업 여부·가격·서비스는 방문 전 해당 업체 페이지에서 재확인해야 합니다.",
+  "studios": [
+    {
+      "id": "31378641",
+      "name": "에이블스튜디오 청주점",
+      "district": "충북 청주시 서원구 사창동",
+      "address": "1순환로672번길 52 신이빌딩 지하 1층",
+      "category": "사진,스튜디오",
+      "lat": 36.6326504,
+      "lon": 127.4573311,
+      "naver_url": "https://map.naver.com/p/entry/place/31378641"
+    },
+    {
+      "id": "2086803977",
+      "name": "시안사진관 청주점",
+      "district": "충북 청주시 상당구 북문로1가",
+      "address": "성안로 5 2층",
+      "category": "사진,스튜디오",
+      "lat": 36.6364471,
+      "lon": 127.4891573,
+      "naver_url": "https://map.naver.com/p/entry/place/2086803977"
+    },
+    {
+      "id": "2020893608",
+      "name": "연희스튜디오 청주점",
+      "district": "충북 청주시 흥덕구 봉명동",
+      "address": "직지대로581번길 112 1층",
+      "category": "사진,스튜디오",
+      "lat": 36.648377,
+      "lon": 127.4578541,
+      "naver_url": "https://map.naver.com/p/entry/place/2020893608"
+    },
+    {
+      "id": "1383420988",
+      "name": "명화사진관",
+      "district": "충북 청주시 상당구 북문로1가",
+      "address": "상당로 61 명화사진관",
+      "category": "사진,스튜디오",
+      "lat": 36.6338996,
+      "lon": 127.4905218,
+      "naver_url": "https://map.naver.com/p/entry/place/1383420988"
+    },
+    {
+      "id": "1286233803",
+      "name": "스튜디오 주노",
+      "district": "충북 청주시 상당구 문화동",
+      "address": "용담로 7 대원칸타빌 상가 112호",
+      "category": "사진,스튜디오",
+      "lat": 36.6324102,
+      "lon": 127.4912914,
+      "naver_url": "https://map.naver.com/p/entry/place/1286233803"
+    },
+    {
+      "id": "1103240975",
+      "name": "에이블위드유 스튜디오 사진관",
+      "district": "충북 청주시 상당구 영동",
+      "address": "교서로 8-10 1층 101호",
+      "category": "사진,스튜디오",
+      "lat": 36.6374045,
+      "lon": 127.4871317,
+      "naver_url": "https://map.naver.com/p/entry/place/1103240975"
+    },
+    {
+      "id": "1414790026",
+      "name": "송절동사진관",
+      "district": "충북 청주시 흥덕구 송절동",
+      "address": "송화로108번길 75 1층 송절동사진관",
+      "category": "사진,스튜디오",
+      "lat": 36.6649971,
+      "lon": 127.452281,
+      "naver_url": "https://map.naver.com/p/entry/place/1414790026"
+    }
+  ]
+}

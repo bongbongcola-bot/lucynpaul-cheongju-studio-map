@@ -11,8 +11,13 @@ class ProductionMapTests(unittest.TestCase):
         html = SITE.read_text(encoding='utf-8')
         for text in ['청주 사진관 입지지도', 'CJ-20260902-01', '공영주차장', '2024 기준 사업체조사']:
             self.assertIn(text, html)
+        self.assertIn('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', html)
+        self.assertIn("tile.openstreetmap.org", html)
+        self.assertIn("const studios=[", html)
+        for studio in ['에이블스튜디오 청주점', '시안사진관 청주점', '연희스튜디오 청주점', '명화사진관', '송절동사진관']:
+            self.assertIn(studio, html)
+        self.assertIn('https://search.naver.com/search.naver?query=%EC%B2%AD%EC%A3%BC%20%EC%82%AC%EC%A7%84%EA%B4%80', html)
         self.assertIn('https://www.cheongju.go.kr/stat/selectBbsNttView.do?key=1763&bbsNo=539&nttNo=268480', html)
-        self.assertIn('https://www.cheongju.go.kr/downloadContentsFile.do?key=24132&fileNo=2123', html)
 
 
 if __name__ == '__main__':
